@@ -55,7 +55,7 @@ let textArr = [{
     // 硬件:原理图，芯片手册，常用仪器 万用表/示波器/逻辑分析仪
     // 编程语言：C/C++/Shell/Python/Rust/ARM汇编
     // 编译器：ARM-Clang ARM-GCC ARM-CC
-    // 工具软件：Git VScode MDK IAR J-link Ozone J-Falsh Ubuntu 总线调试软件(逻辑分析仪，CAN盒，串口调试助手)
+    // 工具软件：Git Gerrit、Jira VScode MDK IAR J-link Ozone J-Falsh Ubuntu 总线调试软件(逻辑分析仪，CAN盒，串口调试助手)
     // RTOS: RT-Thread,uCOS-III,FreeRTOS,ThreadX
     // 处理器：ARM-Cortex-M3 M4 M23 STM32 F1 F4 H7,GD32E23xx GD32F30x CS32F03x(芯海) 中微8051 STM32F103 F407 H7
     // 内核: ARM-Cortex-M3 M4
@@ -89,7 +89,7 @@ let textArr = [{
     // 项目协作
     // 模块抽象，架构，实现
     // 具备底层软件开发，平台开发，设备驱动，功耗，性能，稳定性能力
-    // 良好的编程习惯，简洁，高效，稳定的代码 GhatGPT
+    // 良好的编程习惯，简洁，高效，稳定的代码 GhatGPT Gerrit、Jira
     // 量产项目开发经历
     name: 'ul',
     class: 'ul-list',
@@ -99,43 +99,58 @@ let textArr = [{
         children: [{
             name: 'span',
             class: 'tag',
-            text: 'C/C++/Shell/Python/Rust/ARM汇编'
+            text: 'C/C++/Shell'
         }, {
             name: 'span',
             text: '等编程语言'
         }]
     }, {
         name: 'li',
-        text: '有一定的硬件基础，能看懂原理图&PCB，芯片手册等文档，掌握常用仪器使用,',
-        children: [{
-            name: 'span',
-            class: 'tag',
-            text: '万用表/示波器/逻辑分析仪'
-        }]
+        text: '有一定的硬件基础，能看懂原理图&PCB，芯片手册等文档，掌握常用仪器使用',
+        // children: [{
+        //     name: 'span',
+        //     class: 'tag',
+        //     text: '万用表/示波器/逻辑分析仪'
+        // }]
     }, {
         name: 'li',
         text: '熟练掌握',
         children: [{
             name: 'span',
             class: 'tag',
-            text: 'Git、VScode、MDK、IAR等工具技术'
+            text: 'Git、VScode、MDK、IAR、J-link、Ozone'
         }, {
             name: 'span',
-            text: '，J-link Ozone J-Falsh等调试工具'
+            text: '等软件工具'
         }]
-    }, {
-        name: 'li',
-        text: '熟悉ARM-Cortex-M3 M4内核'
     }, {
         name: 'li',
         text: '熟悉',
         children: [{
             name: 'span',
             class: 'tag',
-            text: 'RT-Thread、uCOS-III、FreeRTOS、ThreadX'
+            text: 'ARM-Cortex-M3 M4'
         }, {
             name: 'span',
-            text: ' RTOS'
+            text: '内核，有'
+        }, {
+            name: 'span',
+            class: 'tag',
+            text: 'STM32、GD32、芯海、中微'
+        }, {
+            name: 'span',
+            text: '等芯片驱动和应用开发经验'
+        }]
+    }, {
+        name: 'li',
+        text: '熟悉',
+        children: [{
+            name: 'span',
+            class: 'tag',
+            text: 'RT-Thread、uCOS-III、FreeRTOS、ThreadX、Linux'
+        }, {
+            name: 'span',
+            text: '等嵌入式系统'
         }]
     }]
 }, {
@@ -166,18 +181,18 @@ let textArr = [{
     // 扫地机项目：基站业务开发(裸机开发，定时器调度，状态机，充电，集尘，回充，产测，低功耗)，红外交互开发，集尘模块，沿边模块，回充模块
     children: [{
         name: 'li',
-        text: '从普通开发人员，升任到子非鱼公司Web技术部主管，负责',
+        text: '参与嵌入式平台的设计、开发和调试，负责',
         children: [{
             name: 'span',
             class: 'tag',
-            text: '带领新人、项目安排、产品优化'
+            text: 'SPI/QSPI、I2C、NAND FLASH、PWM电机控制、LED控制芯片驱动'
         }, {
             name: 'span',
-            text: '，定期组织开展BUG研讨技术会，为公司奠定了技术基础'
+            text: '等模块的实现和性能优化，完成和解决项目在嵌入式平台的需求和问题'
         }]
     }, {
         name: 'li',
-        text: '负责公司Web项目全周期，后期负责AI类查询项目，参与产品线核心功能的架构设计，技术方案调研工作'
+        text: ''
     }]
 }, {
     name: 'h4',
@@ -192,53 +207,14 @@ let textArr = [{
         children: [{
             name: 'li',
             class: 'project-title',
-            text: '项目一：洗地机'
-        }, {
-            name: 'li',
-            text: '使用平台：LCD GD32F303CGT6 主控GD32F303RET6 底盘GD32F303CB'
-        }, {
-            name: 'li',
-            text: '使用技术栈：Gap框架、',
-            children: [{
-                name: 'span',
-                class: 'tag',
-                text: 'Vue全家桶、 Express/Koa框架'
-            }]
-        }, {
-            name: 'li',
-            text: '项目描述：'
-        }]
-    }, {
-        name: 'ul',
-        class: 'ul-list',
-        children: [{
-            name: 'li',
-            class: 'project-title',
-            text: '项目二：吸尘器'
-        }, {
-            name: 'li',
-            text: '使用平台：芯海CS32F03x 中微8051'
+            text: '项目一：嵌入式平台开发'
         }, {
             name: 'li',
             text: '使用技术栈：',
             children: [{
                 name: 'span',
                 class: 'tag',
-                text: 'Vue全家桶、'
-            }, {
-                name: 'span',
-                text: '高德官方'
-            }, {
-                name: 'span',
-                class: 'tag',
-                text: 'cube-ui'
-            }, {
-                name: 'span',
-                text: '框架、'
-            }, {
-                name: 'span',
-                class: 'tag',
-                text: 'BeautifulSoup多端打包'
+                text: ''
             }]
         }, {
             name: 'li',
@@ -248,33 +224,51 @@ let textArr = [{
         name: 'ul',
         class: 'ul-list',
         children: [{
+            //使用平台：LCD GD32F303CGT6 主控GD32F303RET6 底盘GD32F303CB
             name: 'li',
+            class: 'project-title',
+            text: '项目二：洗地机'
+        }, {
+            name: 'li',
+            text: '使用技术栈：',
+            children: [{
+                name: 'span',
+                class: 'tag',
+                text: ''
+            }]
+        }, {
+            name: 'li',
+            text: '项目描述：'
+        }]
+    // }, {
+    //     name: 'ul',
+    //     class: 'ul-list',
+    //     children: [{
+    //         name: 'li',
+    //         class: 'project-title',
+    //         text: '项目二：吸尘器'
+    //     }, {
+    //         name: 'li',
+    //         text: '使用平台：芯海CS32F03x 中微8051'
+    //     }]
+    }, {
+        name: 'ul',
+        class: 'ul-list',
+        children: [{
+            name: 'li',
+            // 使用平台：扫地机-AM790，吸尘器-GD32F303 基站-GD32E230G8U6
             class: 'project-title',
             text: '项目三：扫地机器人'
         }, {
             name: 'li',
-            text: '使用平台：扫地机-AM790，基站-GD32E230G8U6'
-        }, {
-            name: 'li',
             text: '使用技术栈：',
             children: [{
                 name: 'span',
                 class: 'tag',
-                text: 'Vue全家桶、'
+                text: ''
             }, {
                 name: 'span',
-                text: '高德官方'
-            }, {
-                name: 'span',
-                class: 'tag',
-                text: 'cube-ui'
-            }, {
-                name: 'span',
-                text: '框架、'
-            }, {
-                name: 'span',
-                class: 'tag',
-                text: 'BeautifulSoup多端打包'
+                text: ''
             }]
         }, {
             name: 'li',
@@ -286,48 +280,17 @@ let textArr = [{
     class: 'text-title',
     text: '自我评价'
 }, {
-    // 具有较好的学习能力，问题分析和解决能力，注重团队合作
     name: 'ul',
     class: 'ul-list',
     children: [{
         name: 'li',
-        text: '具有',
-        children: [{
-            name: 'span',
-            class: 'tag',
-            text: '团队管理经验'
-        }, {
-            name: 'span',
-            text: '，拥有良好的'
-        }, {
-            name: 'span',
-            class: 'tag',
-            text: '团队协调能力'
-        }, {
-            name: 'span',
-            text: '，与同事配合极其默契'
-        }]
+        text: '熟练掌握嵌入式系统开发相关技术，包括嵌入式操作系统、通信协议、驱动程序开发、应用程序开发',
     }, {
         name: 'li',
-        text: '有很强的',
-        children: [{
-            name: 'span',
-            class: 'tag',
-            text: '自学及动手能力'
-        }, {
-            name: 'span',
-            text: '，善于接受新事物，精通'
-        }, {
-            name: 'span',
-            class: 'tag',
-            text: '全栈'
-        }, {
-            name: 'span',
-            text: '开发'
-        }]
+        text: '具备良好的问题分析和解决能力、自学及动手能力，能够快速定位并解决软件开发过程中遇到的问题',
     }, {
         name: 'li',
-        text: '性格随和、诚恳稳重、身体素质较好、适应环境能力强'
+        text: '善于接受新事物、性格随和、诚恳稳重，具有出色的团队合作能力和沟通能力，能够有效地与团队成员和其他部门进行协作',
     }]
 }]
 let style = `
