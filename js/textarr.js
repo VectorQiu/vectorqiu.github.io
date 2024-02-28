@@ -181,7 +181,7 @@ let textArr = [{
     // 扫地机项目：基站业务开发(裸机开发，定时器调度，状态机，充电，集尘，回充，产测，低功耗)，红外交互开发，集尘模块，沿边模块，回充模块
     children: [{
         name: 'li',
-        text: '参与嵌入式平台的设计、开发和调试，负责',
+        text: '2022.02进入嵌入式平台小组，参与嵌入式平台的设计、开发和调试，负责',
         children: [{
             name: 'span',
             class: 'tag',
@@ -192,7 +192,38 @@ let textArr = [{
         }]
     }, {
         name: 'li',
-        text: ''
+        text: '2022.09进入洗地机项目组，协助',
+        children: [{
+            name: 'span',
+            class: 'tag',
+            text: '调试蒸汽，UI资源烧录，NAND坏块处理，需求开发'
+        }, {
+            name: 'span',
+            text: '等软件问题定位和修复，工厂生产问题定位和解决。'
+        }]
+        // 202211 出差苏州支持吸尘器项目 转正答辩
+    }, {
+        name: 'li',
+        text: '2023.03开发降成本方案洗地机，根据产品PRD进行',
+        children: [{
+            name: 'span',
+            class: 'tag',
+            text: '软件需求开发'
+        }, {
+            name: 'span',
+            text: '，配合结构，硬件，测试进行清扫和自清洁性能优化。'
+        }]
+    }, {
+        name: 'li',
+        text: '2023.06进入扫地机项目组，基站开发主责，负责',
+        children: [{
+            name: 'span',
+            class: 'tag',
+            text: '基站业务，底盘扫地机与基站红外通信模块，集尘模块，回充模块，沿边模块'
+        }, {
+            name: 'span',
+            text: '等软件开发。'
+        }]
     }]
 }, {
     name: 'h4',
@@ -210,15 +241,18 @@ let textArr = [{
             text: '项目一：嵌入式平台开发'
         }, {
             name: 'li',
-            text: '使用技术栈：',
+            text: '负责通用模块开发，驱动开发，模块解耦，芯片移植和性能优化，在RT-Thread平台下完成',
             children: [{
                 name: 'span',
                 class: 'tag',
-                text: ''
+                text: 'SPI/QSPI、Nor/Nand Flash、I2C、气压计、LED驱动芯片aw20xxx、外部Flash FLM算法'
+            }, {
+                name: 'span',
+                text: '等模块开发'
             }]
         }, {
             name: 'li',
-            text: '项目描述：'
+            text: '项目描述：进行嵌入式平台建设，支持项目业务开发'
         }]
     }, {
         name: 'ul',
@@ -230,7 +264,7 @@ let textArr = [{
             text: '项目二：洗地机'
         }, {
             name: 'li',
-            text: '使用技术栈：',
+            text: '负责协助锅炉蒸汽调试，锅炉保护功能，NAND UI资源升级，交互模块，软件软测BUG修复等业务开发',
             children: [{
                 name: 'span',
                 class: 'tag',
@@ -238,7 +272,7 @@ let textArr = [{
             }]
         }, {
             name: 'li',
-            text: '项目描述：'
+            text: '项目描述：无线蒸汽洗地机'
         }]
     // }, {
     //     name: 'ul',
@@ -261,14 +295,14 @@ let textArr = [{
             text: '项目三：扫地机器人'
         }, {
             name: 'li',
-            text: '使用技术栈：',
+            text: '基站业务(裸机开发，定时器调度，状态机，充电，集尘，回充，产测，低功耗)，',
             children: [{
                 name: 'span',
                 class: 'tag',
                 text: ''
             }, {
                 name: 'span',
-                text: ''
+                text: '底盘红外交互，集尘模块，沿边模块，回充模块等软件开发'
             }]
         }, {
             name: 'li',
