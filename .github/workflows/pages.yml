@@ -29,6 +29,8 @@ jobs:
             ${{ runner.OS }}-npm-cache
       - name: Install Dependencies
         run: npm install
+      - name: Install Fluid Theme (if applicable)
+        run: git clone https://github.com/fluid-dev/hexo-theme-fluid themes/fluid
       - name: Build
         run: npm run build
       - name: Upload Pages artifact
