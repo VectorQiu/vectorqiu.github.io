@@ -1,0 +1,26 @@
+{
+    "editor.rulers": [
+        80
+    ],
+    "editor.fontLigatures": true,
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.renderWhitespace": "all",
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "markdownlint.config": {
+        "MD013": false,
+        "MD033": false,
+        "MD024": false,
+        "MD028": false,
+        "MD025": false,
+    },
+    "[markdown]": {
+    "files.trimTrailingWhitespace": false,
+    "editor.fontFamily": "微软雅黑, Ubuntu mono, Consolas, Courier New, monospace",
+    "editor.fontSize": 16,
+    "editor.lineNumbers": "interval"
+}
+}

@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "yzhang.markdown-all-in-one", // Markdown All in One
+        "GitHub.github-vscode-theme",
+        "DavidAnson.vscode-markdownlint",
+        "hancel.markdown-image",
+    ]
+}
