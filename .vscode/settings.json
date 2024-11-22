@@ -9,7 +9,10 @@
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.renderWhitespace": "all",
-    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "markdown.extension.preview.autoShowPreviewToSide": false,
+    "markdown.extension.toc.levels": "1..6", // 指定目录的标题级别范围
+    "markdown.extension.toc.orderedList": false, // 使用无序列表
+    "markdown.extension.toc.updateOnSave": true, // 保存时更新
     "markdownlint.config": {
         "MD013": false,
         "MD033": false,
