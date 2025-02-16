@@ -25,5 +25,18 @@
         "editor.fontFamily": "微软雅黑, Ubuntu mono, Consolas, Courier New, monospace",
         "editor.fontSize": 16,
         "editor.lineNumbers": "interval"
-    }
+    },
+    "cSpell.words": [
+        "CFLAGS",
+        "constexpr",
+        "cout",
+        "cstr",
+        "decltype",
+        "elif",
+        "endl",
+        "ifndef",
+        "Liskov",
+        "OBJS",
+        "teleop"
+    ]
 }
