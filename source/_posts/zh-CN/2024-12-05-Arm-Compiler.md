@@ -8,7 +8,7 @@ updated:
 tags:
 - Arm Compiler
 categories:
-- [技能, Software, Compiler]
+- [系统架构, 编译器, 交叉编译工具链]
 ---
 # Arm Compiler
 
